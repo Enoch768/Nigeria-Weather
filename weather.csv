@@ -1,82 +1,84 @@
 ,city_name,Weather Status,Temperature,Precipitation,Humidity,Wind
-0,Lagos,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 87%,Wind: 8 km/h5 mph
-1,Kano,Clear,18,Precipitation: 0%,Humidity: 33%,Wind: 0 km/h0 mph
-2,Ibadan,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 81%,Wind: 10 km/h6 mph
-3,Benin City,Partly cloudy,27,Precipitation: 3%,Humidity: 89%,Wind: 5 km/h3 mph
-4,Port Harcourt,Partly cloudy,21,Precipitation: 5%,Humidity: 90%,Wind: 8 km/h5 mph
-5,Jos,Clear,18,Precipitation: 0%,Humidity: 27%,Wind: 6 km/h4 mph
-6,Ilorin,Clear with periodic clouds,28,Precipitation: 0%,Humidity: 39%,Wind: 8 km/h5 mph
+0,Lagos,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 88%,Wind: 8 km/h5 mph
+1,Kano,Clear,18,Precipitation: 0%,Humidity: 33%,Wind: 2 km/h1 mph
+2,Ibadan,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 87%,Wind: 10 km/h6 mph
+3,Benin City,Partly cloudy,26,Precipitation: 3%,Humidity: 91%,Wind: 5 km/h3 mph
+4,Port Harcourt,Partly cloudy,21,Precipitation: 5%,Humidity: 92%,Wind: 6 km/h4 mph
+5,Jos,Clear,17,Precipitation: 0%,Humidity: 27%,Wind: 8 km/h5 mph
+6,Ilorin,Clear with periodic clouds,27,Precipitation: 0%,Humidity: 41%,Wind: 8 km/h5 mph
 7,Abuja,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 28%,Wind: 8 km/h5 mph
-8,Kaduna,Partly cloudy,23,Precipitation: 0%,Humidity: 23%,Wind: 10 km/h6 mph
-9,Enugu,Clear with periodic clouds,27,Precipitation: 1%,Humidity: 75%,Wind: 8 km/h5 mph
-10,Zaria,Partly cloudy,21,Precipitation: 0%,Humidity: 23%,Wind: 8 km/h5 mph
-11,Ogbomosho,Clear with periodic clouds,27,Precipitation: 0%,Humidity: 38%,Wind: 8 km/h5 mph
-12,Warri,Partly cloudy,27,Precipitation: 3%,Humidity: 89%,Wind: 6 km/h4 mph
+8,Kaduna,Partly cloudy,25,Precipitation: 0%,Humidity: 34%,Wind: 18 km/h11 mph
+9,Enugu,Clear with periodic clouds,26,Precipitation: 1%,Humidity: 78%,Wind: 8 km/h5 mph
+10,Zaria,Partly cloudy,21,Precipitation: 0%,Humidity: 24%,Wind: 10 km/h6 mph
+11,Ogbomosho,Clear with periodic clouds,27,Precipitation: 0%,Humidity: 40%,Wind: 8 km/h5 mph
+12,Warri,Partly cloudy,27,Precipitation: 3%,Humidity: 92%,Wind: 5 km/h3 mph
 13,Ikorodu,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 87%,Wind: 8 km/h5 mph
-14,Maiduguri,Clear,22,Precipitation: 0%,Humidity: 27%,Wind: 8 km/h5 mph
-15,Aba,Clear with periodic clouds,27,Precipitation: 3%,Humidity: 91%,Wind: 8 km/h5 mph
-16,Bauchi,Clear,21,Precipitation: 0%,Humidity: 25%,Wind: 6 km/h4 mph
-17,Akure,Partly cloudy,25,Precipitation: 3%,Humidity: 82%,Wind: 3 km/h2 mph
-18,Abeokuta,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 85%,Wind: 6 km/h4 mph
-19,Oyo,Partly cloudy,27,Precipitation: 1%,Humidity: 63%,Wind: 5 km/h3 mph
-20,Uyo,Partly cloudy,25,Precipitation: 3%,Humidity: 94%,Wind: 6 km/h4 mph
+14,Maiduguri,Clear,22,Precipitation: 0%,Humidity: 26%,Wind: 8 km/h5 mph
+15,Aba,Clear with periodic clouds,26,Precipitation: 3%,Humidity: 92%,Wind: 8 km/h5 mph
+16,Bauchi,Clear,21,Precipitation: 0%,Humidity: 26%,Wind: 6 km/h4 mph
+17,Akure,Clear with periodic clouds,24,Precipitation: 2%,Humidity: 86%,Wind: 3 km/h2 mph
+18,Abeokuta,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 87%,Wind: 6 km/h4 mph
+19,Oyo,Partly cloudy,26,Precipitation: 1%,Humidity: 68%,Wind: 5 km/h3 mph
+20,Uyo,Partly cloudy,24,Precipitation: 3%,Humidity: 95%,Wind: 6 km/h4 mph
 21,Sokoto,Partly cloudy,27,Precipitation: 0%,Humidity: 16%,Wind: 10 km/h6 mph
-22,Owerri,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 88%,Wind: 8 km/h5 mph
-23,Yola,Partly cloudy,25,Precipitation: 0%,Humidity: 31%,Wind: 2 km/h1 mph
-24,Calabar,Partly cloudy,26,Precipitation: 6%,Humidity: 93%,Wind: 5 km/h3 mph
-25,Ife,Partly cloudy,26,Precipitation: 3%,Humidity: 88%,Wind: 3 km/h2 mph
-26,Umuahia,Clear with periodic clouds,27,Precipitation: 4%,Humidity: 86%,Wind: 10 km/h6 mph
-27,Ondo,Partly cloudy,25,Precipitation: 3%,Humidity: 94%,Wind: 3 km/h2 mph
-28,Minna,Clear with periodic clouds,28,Precipitation: 0%,Humidity: 22%,Wind: 13 km/h8 mph
-29,Lafia,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 30%,Wind: 3 km/h2 mph
-30,Okene,Clear with periodic clouds,27,Precipitation: 0%,Humidity: 42%,Wind: 2 km/h1 mph
-31,Katsina,Clear,23,Precipitation: 0%,Humidity: 19%,Wind: 8 km/h5 mph
-32,Ikeja,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 89%,Wind: 8 km/h5 mph
-33,Nsukka,Clear with periodic clouds,26,Precipitation: 1%,Humidity: 49%,Wind: 2 km/h1 mph
-34,Ado Ekiti,Clear,24,Precipitation: 1%,Humidity: 57%,Wind: 2 km/h1 mph
-35,Awka,Clear,28,Precipitation: 2%,Humidity: 63%,Wind: 3 km/h2 mph
-36,Iseyin,Partly cloudy,27,Precipitation: 1%,Humidity: 55%,Wind: 3 km/h2 mph
-37,Mubi,Partly cloudy,22,Precipitation: 0%,Humidity: 33%,Wind: 3 km/h2 mph
-38,Onitsha,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 69%,Wind: 8 km/h5 mph
-39,Sagamu,Partly cloudy,27,Precipitation: 3%,Humidity: 90%,Wind: 5 km/h3 mph
+22,Owerri,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 90%,Wind: 8 km/h5 mph
+23,Yola,Partly cloudy,24,Precipitation: 0%,Humidity: 32%,Wind: 3 km/h2 mph
+24,Calabar,Partly cloudy,26,Precipitation: 6%,Humidity: 95%,Wind: 3 km/h2 mph
+25,Ife,Partly cloudy,25,Precipitation: 3%,Humidity: 91%,Wind: 3 km/h2 mph
+26,Umuahia,Clear with periodic clouds,26,Precipitation: 2%,Humidity: 90%,Wind: 8 km/h5 mph
+27,Ondo,Clear with periodic clouds,25,Precipitation: 3%,Humidity: 96%,Wind: 2 km/h1 mph
+28,Minna,Clear with periodic clouds,28,Precipitation: 0%,Humidity: 23%,Wind: 13 km/h8 mph
+29,Lafia,Clear,25,Precipitation: 0%,Humidity: 33%,Wind: 3 km/h2 mph
+30,Okene,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 42%,Wind: 2 km/h1 mph
+31,Katsina,Partly cloudy,22,Precipitation: 0%,Humidity: 20%,Wind: 8 km/h5 mph
+32,Ikeja,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 90%,Wind: 8 km/h5 mph
+33,Nsukka,Clear,25,Precipitation: 1%,Humidity: 50%,Wind: 2 km/h1 mph
+34,Ado Ekiti,Partly cloudy,24,Precipitation: 1%,Humidity: 62%,Wind: 2 km/h1 mph
+35,Awka,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 66%,Wind: 5 km/h3 mph
+36,Iseyin,Partly cloudy,26,Precipitation: 1%,Humidity: 61%,Wind: 3 km/h2 mph
+37,Mubi,Partly cloudy,21,Precipitation: 0%,Humidity: 33%,Wind: 3 km/h2 mph
+38,Onitsha,Partly cloudy,28,Precipitation: 2%,Humidity: 77%,Wind: 8 km/h5 mph
+39,Sagamu,Partly cloudy,27,Precipitation: 3%,Humidity: 91%,Wind: 5 km/h3 mph
 40,Makurdi,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 40%,Wind: 3 km/h2 mph
-41,Mokwa,Partly cloudy,27,Precipitation: 0%,Humidity: 30%,Wind: 5 km/h3 mph
-42,Badagry,Partly cloudy,27,Precipitation: 2%,Humidity: 88%,Wind: 11 km/h7 mph
-43,Ilesa,Clear with periodic clouds,26,Precipitation: 2%,Humidity: 66%,Wind: 3 km/h2 mph
+41,Mokwa,Partly cloudy,26,Precipitation: 0%,Humidity: 32%,Wind: 6 km/h4 mph
+42,Badagry,Partly cloudy,27,Precipitation: 2%,Humidity: 89%,Wind: 11 km/h7 mph
+43,Ilesa,Partly cloudy,25,Precipitation: 2%,Humidity: 72%,Wind: 3 km/h2 mph
 44,Gombe,Clear,23,Precipitation: 0%,Humidity: 24%,Wind: 8 km/h5 mph
-45,Owode,Partly cloudy,27,Precipitation: 3%,Humidity: 90%,Wind: 5 km/h3 mph
-46,Owo,Partly cloudy,25,Precipitation: 2%,Humidity: 69%,Wind: 5 km/h3 mph
-47,Jimeta,Partly cloudy,25,Precipitation: 0%,Humidity: 32%,Wind: 2 km/h1 mph
-48,"Suleja, Kwamba",Clear with periodic clouds,26,Precipitation: 0%,Humidity: 32%,Wind: 8 km/h5 mph
-49,Lavun,Clear with periodic clouds,28,Precipitation: 0%,Humidity: 23%,Wind: 10 km/h6 mph
-50,Kukawa,Clear,24,Precipitation: 0%,Humidity: 31%,Wind: 11 km/h7 mph
-51,Iwo,Partly cloudy,27,Precipitation: 2%,Humidity: 77%,Wind: 3 km/h2 mph
-52,Bida,Clear with periodic clouds,28,Precipitation: 0%,Humidity: 27%,Wind: 8 km/h5 mph
-53,Ugep,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 81%,Wind: 11 km/h7 mph
-54,Ijebu Ode,Clear with periodic clouds,27,Precipitation: 3%,Humidity: 91%,Wind: 5 km/h3 mph
-55,Epe,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 91%,Wind: 6 km/h4 mph
-56,Ise,Clear with periodic clouds,25,Precipitation: 1%,Humidity: 61%,Wind: 3 km/h2 mph
-57,Gboko,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 34%,Wind: 2 km/h1 mph
-58,Ilawe Ekiti,Clear,25,Precipitation: 1%,Humidity: 59%,Wind: 2 km/h1 mph
-59,Ikare,Clear,26,Precipitation: 1%,Humidity: 46%,Wind: 2 km/h1 mph
-60,Osogbo,Clear with periodic clouds,26,Precipitation: 1%,Humidity: 55%,Wind: 3 km/h2 mph
-61,"Okpoko, Onitsha",Clear with periodic clouds,28,Precipitation: 2%,Humidity: 74%,Wind: 8 km/h5 mph
-62,"Garki, Abuja",Clear with periodic clouds,26,Precipitation: 0%,Humidity: 27%,Wind: 8 km/h5 mph
-63,Sapele,Partly cloudy,27,Precipitation: 3%,Humidity: 90%,Wind: 6 km/h4 mph
-64,Ila Orangun,Clear with periodic clouds,24,Precipitation: 0%,Humidity: 44%,Wind: 3 km/h2 mph
-65,Shaki,Clear with periodic clouds,26,Precipitation: 0%,Humidity: 36%,Wind: 3 km/h2 mph
-66,Ijero,Clear,24,Precipitation: 1%,Humidity: 50%,Wind: 2 km/h1 mph
-67,Ikot Ekpene,Partly cloudy,25,Precipitation: 3%,Humidity: 94%,Wind: 6 km/h4 mph
-68,Jalingo,Partly cloudy,25,Precipitation: 0%,Humidity: 30%,Wind: 5 km/h3 mph
-69,Otukpo,Clear,26,Precipitation: 1%,Humidity: 46%,Wind: 2 km/h1 mph
-70,Okigwe,Clear,26,Precipitation: 3%,Humidity: 82%,Wind: 8 km/h5 mph
-71,Kishi,Partly cloudy,26,Precipitation: 0%,Humidity: 36%,Wind: 2 km/h1 mph
-72,Buguma,Partly cloudy,21,Precipitation: 5%,Humidity: 90%,Wind: 8 km/h5 mph
-73,Funtua,Partly cloudy,21,Precipitation: 0%,Humidity: 22%,Wind: 8 km/h5 mph
-74,Abakaliki,Clear,28,Precipitation: 1%,Humidity: 61%,Wind: 8 km/h5 mph
-75,Asaba,Clear with periodic clouds,28,Precipitation: 2%,Humidity: 74%,Wind: 8 km/h5 mph
-76,Gbongan,Partly cloudy,26,Precipitation: 3%,Humidity: 88%,Wind: 3 km/h2 mph
-77,Igboho,Partly cloudy,26,Precipitation: 0%,Humidity: 39%,Wind: 2 km/h1 mph
-78,Gashua,Clear,23,Precipitation: 0%,Humidity: 22%,Wind: 11 km/h7 mph
-79,Bama,Partly cloudy,23,Precipitation: 0%,Humidity: 28%,Wind: 8 km/h5 mph
-80,Uromi,Partly cloudy,26,Precipitation: 1%,Humidity: 65%,Wind: 5 km/h3 mph
+45,Owode,Partly cloudy,26,Precipitation: 3%,Humidity: 91%,Wind: 5 km/h3 mph
+46,Owo,Partly cloudy,24,Precipitation: 2%,Humidity: 74%,Wind: 5 km/h3 mph
+47,Jimeta,Partly cloudy,38,Precipitation: 0%,Humidity: 32%,Wind: 3 km/h2 mph
+48,"Suleja, Kwamba",Clear with periodic clouds,25,Precipitation: 0%,Humidity: 32%,Wind: 11 km/h7 mph
+49,Lavun,Partly cloudy,28,Precipitation: 0%,Humidity: 22%,Wind: 11 km/h7 mph
+50,Potiskum,Clear,21,Precipitation: 0%,Humidity: 30%,Wind: 8 km/h5 mph
+51,Kukawa,Clear,23,Precipitation: 0%,Humidity: 32%,Wind: 13 km/h8 mph
+52,Gusau,Partly cloudy,22,Precipitation: 0%,Humidity: 22%,Wind: 6 km/h4 mph
+53,Iwo,Partly cloudy,26,Precipitation: 3%,Humidity: 87%,Wind: 5 km/h3 mph
+54,Bida,Partly cloudy,27,Precipitation: 0%,Humidity: 29%,Wind: 8 km/h5 mph
+55,Ugep,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 85%,Wind: 11 km/h7 mph
+56,Ijebu Ode,Partly cloudy,26,Precipitation: 3%,Humidity: 94%,Wind: 3 km/h2 mph
+57,Epe,Clear with periodic clouds,27,Precipitation: 2%,Humidity: 91%,Wind: 6 km/h4 mph
+58,Ise,Partly cloudy,24,Precipitation: 1%,Humidity: 65%,Wind: 3 km/h2 mph
+59,Gboko,Clear,26,Precipitation: 0%,Humidity: 35%,Wind: 2 km/h1 mph
+60,Ilawe Ekiti,Partly cloudy,24,Precipitation: 1%,Humidity: 62%,Wind: 2 km/h1 mph
+61,Ikare,Clear with periodic clouds,25,Precipitation: 1%,Humidity: 47%,Wind: 2 km/h1 mph
+62,Osogbo,Partly cloudy,25,Precipitation: 1%,Humidity: 61%,Wind: 3 km/h2 mph
+63,"Okpoko, Onitsha",Partly cloudy,28,Precipitation: 2%,Humidity: 77%,Wind: 8 km/h5 mph
+64,"Garki, Abuja",Clear with periodic clouds,25,Precipitation: 0%,Humidity: 25%,Wind: 8 km/h5 mph
+65,Sapele,Partly cloudy,27,Precipitation: 3%,Humidity: 92%,Wind: 5 km/h3 mph
+66,Ila Orangun,Clear with periodic clouds,24,Precipitation: 1%,Humidity: 44%,Wind: 3 km/h2 mph
+67,Shaki,Partly cloudy,26,Precipitation: 0%,Humidity: 39%,Wind: 3 km/h2 mph
+68,Ijero,Clear,24,Precipitation: 1%,Humidity: 54%,Wind: 2 km/h1 mph
+69,Ikot Ekpene,Partly cloudy,25,Precipitation: 3%,Humidity: 95%,Wind: 6 km/h4 mph
+70,Jalingo,Clear with periodic clouds,25,Precipitation: 0%,Humidity: 29%,Wind: 6 km/h4 mph
+71,Otukpo,Clear with periodic clouds,25,Precipitation: 1%,Humidity: 48%,Wind: 2 km/h1 mph
+72,Okigwe,Clear,26,Precipitation: 3%,Humidity: 85%,Wind: 8 km/h5 mph
+73,Kishi,Partly cloudy,26,Precipitation: 0%,Humidity: 38%,Wind: 2 km/h1 mph
+74,Buguma,Mostly cloudy,23,Precipitation: 5%,Humidity: 91%,Wind: 0 km/h0 mph
+75,Funtua,Partly cloudy,21,Precipitation: 0%,Humidity: 23%,Wind: 10 km/h6 mph
+76,Abakaliki,Clear,27,Precipitation: 1%,Humidity: 67%,Wind: 8 km/h5 mph
+77,Asaba,Partly cloudy,28,Precipitation: 2%,Humidity: 77%,Wind: 8 km/h5 mph
+78,Gbongan,Partly cloudy,26,Precipitation: 3%,Humidity: 92%,Wind: 2 km/h1 mph
+79,Igboho,Partly cloudy,25,Precipitation: 0%,Humidity: 41%,Wind: 2 km/h1 mph
+80,Gashua,Clear,23,Precipitation: 0%,Humidity: 23%,Wind: 11 km/h7 mph
+81,Bama,Partly cloudy,23,Precipitation: 0%,Humidity: 28%,Wind: 8 km/h5 mph
+82,Uromi,Partly cloudy,25,Precipitation: 1%,Humidity: 66%,Wind: 5 km/h3 mph

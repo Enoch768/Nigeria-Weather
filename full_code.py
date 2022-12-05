@@ -179,7 +179,7 @@ merged_df['humidity_rate'] = humidity
 normal_wind = merged_df[merged_df['wind_speed'] <= 20]
 average_prep = merged_df['prec'].mean()
 average_humidity = merged_df['humidity_rate'].mean()
-plt.gcf().text(0.002, 1.30, f'Weather report in various cities in Nigeria as of {date.today()}', fontsize=14)
+plt.gcf().text(0.002, 1.30, f'Weather report for cities in Nigeria as of {date.today()}', fontsize=14)
 plt.gcf().text(0.002, 1.25, 'The data is scraped from google and these insights are made:', fontsize=10)
 plt.gcf().text(0.002,1.20,f'{most_appeared} has most occurences with {len_most_appeared} cities in total', fontsize=9)
 plt.gcf().text(0.002,1.15,f'{len(higher_room_temp)} cities has temperature higher than room temperature and {len(less_room_temp)} has lower',fontsize=9)
