@@ -139,12 +139,20 @@ list_status = list(merged_df['Weather Status'].unique())
 legends = [mpatches.Patch(color=dict_color.get(i),
                           label=i) for i in list_status]
 plt.legend(handles=legends, bbox_to_anchor=(1.5, 1.01), title='Weather Status')
+for coord, label in zip(merged_df.geometry, merged_df.index):
+    ax.annotate(label, xy=(coord.centroid.coords[0]), xytext=(3,3), textcoords='offset points', ha='center')
 most_appeared = merged_df['Weather Status'].value_counts().nlargest(1).index[0]
 len_most_appeared = merged_df['Weather Status'].value_counts().nlargest(1).values[0]
 room_temp = [i for i in range(26,28)]
 merged_df['Temperature'].fillna(0.0,inplace=True)
 merged_df['Temperature'] = merged_df['Temperature'].astype('int')
 #print(list(merged_df['Temperature']))
+btwn_room_temp = merged_df[merged_df['Temperature'].isin(room_temp)]
+not_btwn_room_temp = merged_df[~merged_df['Temperature'].isin(room_temp)]
+if len(btwn_room_temp) < len(not_btwn_room_temp):
+    room_temp_report = f'Most of the cities had temperature that is out of room temperature range 26-28\xb0C either lower or higher'
+else:
+    room_temp_report = 'Higher number of cities experience temperature that is within the room temperature range'
 less_room_temp = merged_df[merged_df['Temperature']<26]
 higher_room_temp = merged_df[merged_df['Temperature']>28]
 #print(len(btwn_room_temp))
@@ -176,16 +184,24 @@ for value in merged_df['Humidity']:
         humidity.append(0)
 merged_df['humidity_rate'] = humidity
 
-normal_wind = merged_df[merged_df['wind_speed'] <= 20]
+normal_wind = merged_df[merged_df['wind_speed'] > 20]
 average_prep = merged_df['prec'].mean()
 average_humidity = merged_df['humidity_rate'].mean()
+max_temp = merged_df.sort_values('Temperature', ascending=False).iloc[0,:]['City_name'].title()
+max_temp_value = merged_df.sort_values('prec', ascending=False).iloc[0,:]['Temperature']
+max_prec = merged_df.sort_values('prec', ascending=False).iloc[0,:]['City_name']
+max_prec_value = merged_df.sort_values('prec', ascending=False).iloc[0,:]['prec']
 plt.gcf().text(0.002, 1.30, f'Weather report for cities in Nigeria as of {date.today()}', fontsize=14)
 plt.gcf().text(0.002, 1.25, 'The data is scraped from google and these insights are made:', fontsize=10)
-plt.gcf().text(0.002,1.20,f'{most_appeared} has most occurences with {len_most_appeared} cities in total', fontsize=9)
-plt.gcf().text(0.002,1.15,f'{len(higher_room_temp)} cities has temperature higher than room temperature and {len(less_room_temp)} has lower',fontsize=9)
-plt.gcf().text(0.002,1.10,f'{len(normal_wind)} cities experiences a normal wind speed of less than 20km/h',fontsize=9)
-plt.gcf().text(0.002,1.05,f'The average humidity is {average_humidity:.2f}%',fontsize=9)
-plt.gcf().text(0.002,1.00,f'The average precipitation is {average_prep:.2f}% ',fontsize=9)
+plt.gcf().text(0.002,1.20,f'Most cities experiences {most_appeared} weather condition with total number  {len_most_appeared} occurences', fontsize=9)
+plt.gcf().text(0.002, 1.15, room_temp_report, fontsize=9)
+plt.gcf().text(0.002,1.10,f'Almost over {len(higher_room_temp)} cities has temperature higher than room temperature',fontsize=9)
+plt.gcf().text(0.002,1.05,f'Almost over {len(less_room_temp)} cities has temperature lower than the room temperature',fontsize=9)
+plt.gcf().text(0.002,1.00, f'{max_temp} has the highest temperature of {max_temp_value}\xb0', fontsize=9)
+plt.figtext(0.85,0.30, f'{len(normal_wind)} cities experiences wind speed that is strong enough to shake small tree branches(over 20km/h)', fontsize=9)
+plt.figtext(0.85,0.25, f'The Average humidity recorded is {average_humidity:.2f} %', fontsize=9)
+plt.figtext(0.85,0.20, f'The highest precipitation is recorded in {max_prec} with {max_prec_value}%', fontsize=9)
+plt.figtext(0.85,0.15, f'The overall average precipitation recorded is {average_prep:.2f}%', fontsize=9)
 plt.figtext(1.15,0.01,'Made by Enoch',fontsize=12)
 plt.savefig('figure.png', bbox_inches='tight')
 print('Figure Saved')
